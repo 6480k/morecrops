@@ -1,0 +1,179 @@
+{
+	"Format": "1.29.0",
+	"ConfigSchema": {
+		"VanillaForageCrops": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enables growable crops for ginger, spring onions, and coconuts."
+		},
+		"EnableCorePack": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "(Highly recommended) Adds an essential variety of crops, fruit trees, recipes, and other content from the core expasion pack."
+		},
+		"TurnOffDuplicates": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Automatically remove duplicate items that are similar to other CP crop mods, with new recipes and machine goods using the other mod's crop as an ingredient instead. (Turning this option on will make any existing duplicates become error items that can be safely thrown away!)"
+		},
+		"TurnOffRecipes": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "(Not recommended) Removes any custom cooking recipes added by this mod."
+		},
+		"TurnOffArtisanGoods": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "(Not recommended) Removes any custom, unique artisan goods added by this mod. Generic goods like wine, juice, etc will still be automatically added."
+		},
+	},
+	"DynamicTokens": [
+		{
+			"Name": "IDAsparagus",
+			"Value": "6480.morecrops_Asparagus"
+		},
+		{
+			"Name": "IDBasil",
+			"Value": "6480.morecrops_Basil"
+		},
+		{
+			"Name": "IDBasil",
+			"Value": "wildflour.wildfood_basil",
+			"When": {"HasMod": "wildflour.wildfood"}
+		},
+		{
+			"Name": "IDBroccoli",
+			"Value": "6480.morecrops_Broccoli"
+		},
+		{
+			"Name": "IDCarrot",
+			"Value": "6480.morecrops_Carrot"
+		},
+		{
+			"Name": "IDCarrot",
+			"Value": "wildflour.wildfood_carrot",
+			"When": {"HasMod": "wildflour.wildfood"}
+		},
+		{
+			"Name": "IDAloe",
+			"Value": "6480.morecrops_Aloe"
+		},
+		{
+			"Name": "IDCucumber",
+			"Value": "6480.morecrops_Cucumber"
+		},
+		{
+			"Name": "IDLettuce",
+			"Value": "6480.morecrops_Lettuce"
+		},
+		{
+			"Name": "IDOnion",
+			"Value": "6480.morecrops_Onion"
+		},
+		{
+			"Name": "IDOnion",
+			"Value": "wildflour.wildfood_redonion",
+			"When": {"HasMod": "wildflour.wildfood"}
+		},
+		{
+			"Name": "IDPeanut",
+			"Value": "6480.morecrops_Peanut"
+		},
+		{
+			"Name": "IDSoybean",
+			"Value": "6480.morecrops_Soybeans"
+		},
+		{
+			"Name": "IDSpinach",
+			"Value": "6480.morecrops_Spinach"
+		},
+		{
+			"Name": "IDSugarcane",
+			"Value": "6480.morecrops_Sugarcane"
+		},
+		{
+			"Name": "IDBellPepper",
+			"Value": "6480.morecrops_BellPepper"
+		},
+		{
+			"Name": "IDZucchini",
+			"Value": "6480.morecrops_Zucchini"
+		},
+		{
+			"Name": "IDPeppercorn",
+			"Value": "6480.morecrops_Peppercorn"
+		},
+		{
+			"Name": "IDWatermelon",
+			"Value": "6480.morecrops_Peppercorn"
+		},
+		{
+			"Name": "IDGroundcherry",
+			"Value": "6480.morecrops_Peppercorn"
+		},
+	],
+	"Changes": [
+		{
+		"LogName": "Textures",
+		"Action": "Load",
+		"Target": "Mods/6480.morecrops/objects, Mods/6480.morecrops/crops, Mods/6480.morecrops/fruittrees, Mods/6480.morecrops/giantcrops",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+		"LogName": "Vanilla Forage Crops",
+		"Action": "Include",
+		"FromFile": "data/vanillaforage.json",
+		"When": {"VanillaForageCrops": true}
+		},
+		{
+		"LogName": "Core Objects",
+		"Action": "Include",
+		"FromFile": "data/core/objects.json",
+		"When": {"EnableCorePack": true}
+		},
+		{
+		"LogName": "Core Crops",
+		"Action": "Include",
+		"FromFile": "data/core/crops.json",
+		"When": {"EnableCorePack": true}
+		},
+		{
+		"LogName": "Core Giant Crops",
+		"Action": "Include",
+		"FromFile": "data/core/giantcrops.json",
+		"When": {"EnableCorePack": true}
+		},
+		{
+		"LogName": "Core Trees",
+		"Action": "Include",
+		"FromFile": "Data/core/trees.json",
+		"When": {"EnableCorePack": true}
+		},
+		{
+		"LogName": "Core Machines",
+		"Action": "Include",
+		"FromFile": "data/core/machines.json",
+		"When": {"EnableCorePack": true,
+			"TurnOffArtisanGoods": false}
+		},
+		{
+		"LogName": "Core Recipes",
+		"Action": "Include",
+		"FromFile": "data/core/recipes.json",
+		"When": {"EnableCorePack": true,
+			"TurnOffRecipes": false}
+		},
+		{
+		"LogName": "Core Gift Tastes",
+		"Action": "Include",
+		"FromFile": "data/core/gifttastes.json",
+		"When": {"EnableCorePack": true}
+		},
+		{
+		"LogName": "Core Shop",
+		"Action": "Include",
+		"FromFile": "data/core/shops.json",
+		"When": {"EnableCorePack": true}
+		},
+	]
+}
