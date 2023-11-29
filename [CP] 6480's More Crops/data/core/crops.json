@@ -1,0 +1,320 @@
+{
+	"Changes": [
+		{
+			"LogName": "Asparagus Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDAsparagus}}' = '6480.morecrops_Asparagus'": true},
+			"Entries": {
+			"6480.morecrops_AsparagusSeeds": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 1, 2, 3, 3 ],
+				"HarvestItemId": "6480.morecrops_Asparagus",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 0,
+				//optional
+				"RegrowDays": -1,
+				"IsRaised": false,
+				"IsPaddyCrop": false,
+				"HarvestMethod": "Grab",
+				"HarvestMinStack": 1,
+				"HarvestMaxStack": 1, //defaults to min
+				"HarvestMaxIncreasePerFarmingLevel": 0.0, //increases max possible
+				"ExtraHarvestChance": 0.0,
+				}
+			}
+		},
+		{
+			"LogName": "Basil Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDBasil}}' = '6480.morecrops_Basil'": true},
+			"Entries": {
+			"6480.morecrops_BasilSeeds": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 1, 1, 1, 1 ],
+				"HarvestItemId": "6480.morecrops_Basil",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 2,
+				}
+			}
+		},
+		{
+			"LogName": "Broccoli Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDBroccoli}}' = '6480.morecrops_Broccoli'": true},
+			"Entries": {
+			"6480.morecrops_BroccoliSeeds": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 1, 2, 4, 4, 2 ],
+				"HarvestItemId": "6480.morecrops_Broccoli",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 4,
+				}
+			}
+		},
+		{
+			"LogName": "Carrot Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDCarrot}}' = '6480.morecrops_Carrot'": true},
+			"Entries": {
+			"6480.morecrops_CarrotSeeds": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 1, 1, 1, 2 ],
+				"HarvestItemId": "6480.morecrops_Carrot",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 6,
+				}
+			}
+		},
+		{
+			"LogName": "Aloe Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDAloe}}' = '6480.morecrops_Aloe'": true},
+			"Entries": {
+			"6480.morecrops_AloeSeeds": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 2, 3, 4, 4 ],
+				"HarvestItemId": "6480.morecrops_Aloe",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 8,
+				}
+			}
+		},
+		{
+			"LogName": "Cucumber Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDCucumber}}' = '6480.morecrops_Cucumber'": true},
+			"Entries": {
+			"6480.morecrops_CucumberStarter": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 1, 1, 1, 2, 1 ],
+				"HarvestItemId": "6480.morecrops_Cucumber",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 10,
+				//optional
+				"RegrowDays": 4,
+				"IsRaised": true,
+				"HarvestMinStack": 1,
+				"HarvestMaxStack": 2, //defaults to min
+				"HarvestMaxIncreasePerFarmingLevel": 0.0, //increases max possible
+				"ExtraHarvestChance": 0.01,
+				}
+			}
+		},
+		{
+			"LogName": "Lettuce Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDLettuce}}' = '6480.morecrops_Lettuce'": true},
+			"Entries": {
+			"6480.morecrops_LettuceSeeds": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 1, 1, 2, 2, 2 ],
+				"HarvestItemId": "6480.morecrops_Lettuce",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 16,
+				}
+			}
+		},
+		{
+			"LogName": "Onion Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDOnion}}' = '6480.morecrops_Onion'": true},
+			"Entries": {
+			"6480.morecrops_OnionSeeds": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 1, 2, 2, 1 ],
+				"HarvestItemId": "6480.morecrops_Onion",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 20,
+				}
+			}
+		},
+		{
+			"LogName": "Peanut Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDPeanut}}' = '6480.morecrops_Peanut'": true},
+			"Entries": {
+			"6480.morecrops_PeanutSeeds": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 2, 3, 4, 4, 5 ],
+				"HarvestItemId": "6480.morecrops_Peanut",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 22,
+				//optional
+				"HarvestMinStack": 4,
+				"HarvestMaxStack": 5, //defaults to min
+				"HarvestMaxIncreasePerFarmingLevel": 0.0, //increases max possible
+				"ExtraHarvestChance": 0.04,
+				}
+			}
+		},
+		{
+			"LogName": "Soybean Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDSoybean}}' = '6480.morecrops_Soybeans'": true},
+			"Entries": {
+			"6480.morecrops_Soybeans": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 1, 1, 3, 3, 2 ],
+				"HarvestItemId": "6480.morecrops_Soybeans",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 1,
+				//optional
+				"RegrowDays": 4,
+				"HarvestMinStack": 1,
+				"HarvestMaxStack": 2, //defaults to min
+				"HarvestMaxIncreasePerFarmingLevel": 0.0, //increases max possible
+				"ExtraHarvestChance": 0.04,
+				}
+			}
+		},
+		{
+			"LogName": "Spinach Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDSpinach}}' = '6480.morecrops_Spinach'": true},
+			"Entries": {
+			"6480.morecrops_SpinachSeeds": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 1, 2, 3, 3 ],
+				"HarvestItemId": "6480.morecrops_Spinach",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 3,
+				"HarvestMethod": "Scythe",
+				}
+			}
+		},
+		{
+			"LogName": "Sugarcane Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDSugarcane}}' = '6480.morecrops_Sugarcane'": true},
+			"Entries": {
+			"6480.morecrops_SugarcaneShoot": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 2, 2, 3, 3 ],
+				"HarvestItemId": "6480.morecrops_Sugarcane",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 7,
+				//optional
+				"IsPaddyCrop": true,
+				"HarvestMethod": "Scythe",
+				"HarvestMinStack": 1,
+				"HarvestMaxStack": 2, //defaults to min
+				"HarvestMaxIncreasePerFarmingLevel": 0.0, //increases max possible
+				"ExtraHarvestChance": 0.01,
+				}
+			}
+		},
+		{
+			"LogName": "Bell Pepper Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDBellPepper}}' = '6480.morecrops_BellPepper'": true},
+			"Entries": {
+			"6480.morecrops_BellPepperSeeds": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 1, 1, 2, 2, 1 ],
+				"HarvestItemId": "6480.morecrops_BellPepper",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 9,
+				//optional
+				"RegrowDays": 4,
+				"HarvestMinStack": 1,
+				"HarvestMaxStack": 2, //defaults to min
+				"HarvestMaxIncreasePerFarmingLevel": 0.0, //increases max possible
+				"ExtraHarvestChance": 0.02,
+				}
+			}
+		},
+		{
+			"LogName": "Zucchini Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDZucchini}}' = '6480.morecrops_Zucchini'": true},
+			"Entries": {
+			"6480.morecrops_ZucchiniSeeds": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 1, 2, 2, 2, 1 ],
+				"HarvestItemId": "6480.morecrops_Zucchini",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 11,
+				//optional
+				"RegrowDays": 4,
+				"HarvestMinStack": 1,
+				"HarvestMaxStack": 2, //defaults to min
+				"HarvestMaxIncreasePerFarmingLevel": 0.0, //increases max possible
+				"ExtraHarvestChance": 0.01,
+				}
+			}
+		},
+		{
+			"LogName": "Peppercorn Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDPeppercorn}}' = '6480.morecrops_Peppercorn'": true},
+			"Entries": {
+			"6480.morecrops_PeppercornStarter": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 1, 2, 4, 4, 3 ],
+				"HarvestItemId": "6480.morecrops_Peppercorn",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 13,
+				//optional
+				"RegrowDays": 1,
+				"IsRaised": true,
+				"HarvestMinStack": 1,
+				"HarvestMaxStack": 2, //defaults to min
+				"HarvestMaxIncreasePerFarmingLevel": 0.0, //increases max possible
+				"ExtraHarvestChance": 0.06,
+				}
+			}
+		},
+		{
+			"LogName": "Watermelon Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDWatermelon}}' = '6480.morecrops_Watermelon'": true},
+			"Entries": {
+			"6480.morecrops_WatermelonSeeds": {
+				"Seasons": [ "summer" ],
+				"DaysInPhase": [ 1 ],
+				"HarvestItemId": "6480.morecrops_Watermelon",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 15,
+				}
+			}
+		},
+		{
+			"LogName": "Groundcherry Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Query: '{{IDGroundcherry}}' = '6480.morecrops_Groundcherry'": true},
+			"Entries": {
+			"6480.morecrops_GroundcherrySeeds": {
+				"Seasons": [ "summer" ],
+				"DaysInPhase": [ 1 ],
+				"HarvestItemId": "6480.morecrops_Groundcherry",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 17,
+				//optional
+				"RegrowDays": 1,
+				"IsRaised": true,
+				"HarvestMinStack": 2,
+				"HarvestMaxStack": 3, //defaults to min
+				"HarvestMaxIncreasePerFarmingLevel": 0.0, //increases max possible
+				"ExtraHarvestChance": 0.02,
+				}
+			}
+		}
+	]
+}
