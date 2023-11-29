@@ -1,0 +1,70 @@
+{
+	"Changes": [
+		{
+			"LogName": "Ginger Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"Entries": {
+			"6480.morecrops_GingerSeeds": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 2, 2, 2, 2 ],
+				"HarvestItemId": "(O)829",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 12,
+				}
+			}
+		},
+		{
+			"LogName": "Spring Onion Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"Entries": {
+			"6480.morecrops_SpringOnionSeeds": {
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 1, 1, 1 ],
+				"HarvestItemId": "(O)399",
+				"Texture": "Mods/6480.morecrops/crops",
+				"SpriteIndex": 5,
+				}
+			}
+		},
+		{
+			"LogName": "Ginger Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+				"Entries": {
+				"6480.morecrops_GingerSeeds": {
+					"Name": "6480.morecrops_GingerSeeds",
+					"Displayname": "{{i18n:GingerSeeds_name}}",
+					"Description": "{{i18n:GingerSeeds_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 66,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 10,
+					//optional
+					"ContextTags": [ "color_brown" ]
+				}
+			}
+		},
+		{
+			"LogName": "Spring Onion Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+				"Entries": {
+				"6480.morecrops_SpringOnionSeeds": {
+					"Name": "6480.morecrops_SpringOnionSeeds",
+					"Displayname": "{{i18n:SpringOnionSeeds_name}}",
+					"Description": "{{i18n:SpringOnionSeeds_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 74,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 2,
+					//optional
+					"ContextTags": [ "color_green" ]
+				}
+			}
+		}
+	]
+}
