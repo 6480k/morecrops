@@ -1,0 +1,71 @@
+{
+	"Changes": [
+		{
+		"LogName": "Giant Crops",
+		"Action": "EditData",
+		"Target": "Data/GiantCrops",
+		"Entries": {
+			"6480.morecrops_Broccoli": {
+				"FromItemId": "6480.morecrops_Broccoli",
+				"Chance": 1.0,
+				"HarvestItems": [
+					{
+						"ItemId": "6480.morecrops_Broccoli",
+						"MinStack": 15,
+						"MaxStack": 20,
+					},
+				],
+				"Texture": "Mods/6480.morecrops/giantcrops",
+				"TexturePosition": {
+					"X": 0,
+					"Y": 0
+				},
+				"TileSize":{
+					"X": 3,
+					"Y": 3
+				}
+			},
+			"6480.morecrops_Watermelon": {
+				"FromItemId": "6480.morecrops_Watermelon",
+				"Chance": 0.5,
+				"HarvestItems": [
+					{
+						"ItemId": "6480.morecrops_Watermelon",
+						"MinStack": 15,
+						"MaxStack": 20,
+					},
+				],
+				"Texture": "Mods/6480.morecrops/giantcrops",
+				"TexturePosition": {
+					"X": 48,
+					"Y": 0
+				},
+				"TileSize":{
+					"X": 3,
+					"Y": 3
+				}
+			},
+			"6480.morecrops_Watermelon": {
+				"FromItemId": "6480.morecrops_Watermelon",
+				"Chance": 1.0,
+				"HarvestItems": [
+					{
+						"ItemId": "6480.morecrops_Watermelon",
+						"MinStack": 6,
+						"MaxStack": 10,
+					},
+				],
+				"Texture": "Mods/6480.morecrops/giantcrops",
+				"TexturePosition": {
+					"X": 0,
+					"Y": 64
+				},
+				"TileSize":{
+					"X": 2,
+					"Y": 2
+				}
+			},
+		}
+		}
+	]
+}

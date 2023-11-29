@@ -1,0 +1,487 @@
+{
+	"Changes": [
+		{
+			"LogName": "Asparagus Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDAsparagus}}' = '6480.morecrops_Asparagus'": true},
+				"Entries": {
+				"6480.morecrops_Asparagus": {
+					"Name": "6480.morecrops_Asparagus",
+					"Displayname": "{{i18n:Asparagus_name}}",
+					"Description": "{{i18n:Asparagus_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 20,
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 200,
+					"Edibility": 5,
+					//optional
+					"IsDrink": false,
+					"ContextTags": [ "color_dark_green" ]
+				},
+				"6480.morecrops_AsparagusSeeds": {
+					"Name": "6480.morecrops_AsparagusSeeds",
+					"Displayname": "{{i18n:AsparagusSeeds_name}}",
+					"Description": "{{i18n:AsparagusSeeds_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 60,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 30,
+					//optional
+					"ContextTags": [ "color_dark_green" ]
+				}
+			}
+		},
+		{
+			"LogName": "Basil Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDBasil}}' = '6480.morecrops_Basil'": true},
+				"Entries": {
+				"6480.morecrops_Basil": {
+					"Name": "6480.morecrops_Basil",
+					"Displayname": "{{i18n:Basil_name}}",
+					"Description": "{{i18n:Basil_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 21,
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 100,
+					"Edibility": 5,
+					//optional
+					"ContextTags": [ "color_dark_green", "6480.morecrops_herb" ]
+				},
+				"6480.morecrops_BasilSeeds": {
+					"Name": "6480.morecrops_BasilSeeds",
+					"Displayname": "{{i18n:BasilSeeds_name}}",
+					"Description": "{{i18n:BasilSeeds_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 61,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					//optional
+					"ContextTags": [ "color_dark_green" ]
+				}
+			}
+		},
+		{
+			"LogName": "Broccoli Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDBroccoli}}' = '6480.morecrops_Broccoli'": true},
+				"Entries": {
+				"6480.morecrops_Broccoli": {
+					"Name": "6480.morecrops_Broccoli",
+					"Displayname": "{{i18n:Broccoli_name}}",
+					"Description": "{{i18n:Broccoli_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 22,
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 100,
+					"Edibility": 5,
+					//optional
+					"ContextTags": [ "color_dark_green" ]
+				},
+				"6480.morecrops_BroccoliSeeds": {
+					"Name": "6480.morecrops_BroccoliSeeds",
+					"Displayname": "{{i18n:BroccoliSeeds_name}}",
+					"Description": "{{i18n:BroccoliSeeds_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 62,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					//optional
+					"ContextTags": [ "color_dark_green" ]
+				}
+			}
+		},
+		{
+			"LogName": "Carrot Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDCarrot}}' = '6480.morecrops_Carrot'": true},
+				"Entries": {
+				"6480.morecrops_Carrot": {
+					"Name": "6480.morecrops_Carrot",
+					"Displayname": "{{i18n:Carrot_name}}",
+					"Description": "{{i18n:Carrot_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 23,
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 100,
+					"Edibility": 5,
+					//optional
+					"ContextTags": [ "color_orange" ]
+				},
+				"6480.morecrops_CarrotSeeds": {
+					"Name": "6480.morecrops_CarrotSeeds",
+					"Displayname": "{{i18n:CarrotSeeds_name}}",
+					"Description": "{{i18n:CarrotSeeds_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 63,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					//optional
+					"ContextTags": [ "color_orange" ]
+				}
+			}
+		},
+		{
+			"LogName": "Aloe Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDAloe}}' = '6480.morecrops_Aloe'": true},
+				"Entries": {
+				"6480.morecrops_Aloe": {
+					"Name": "6480.morecrops_Aloe",
+					"Displayname": "{{i18n:Aloe_name}}",
+					"Description": "{{i18n:Aloe_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 24,
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 100,
+					"Edibility": 5,
+					//optional
+					"ContextTags": [ "color_green" ]
+				},
+				"6480.morecrops_AloeSeeds": {
+					"Name": "6480.morecrops_AloeSeeds",
+					"Displayname": "{{i18n:AloeSeeds_name}}",
+					"Description": "{{i18n:AloeSeeds_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 64,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					//optional
+					"ContextTags": [ "color_green" ]
+				}
+			}
+		},
+		{
+			"LogName": "Cucumber Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDCucumber}}' = '6480.morecrops_Cucumber'": true},
+				"Entries": {
+				"6480.morecrops_Cucumber": {
+					"Name": "6480.morecrops_Cucumber",
+					"Displayname": "{{i18n:Cucumber_name}}",
+					"Description": "{{i18n:Cucumber_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 25,
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 100,
+					"Edibility": 5,
+					//optional
+					"ContextTags": [ "color_green" ]
+				},
+				"6480.morecrops_CucumberStarter": {
+					"Name": "6480.morecrops_CucumberStarter",
+					"Displayname": "{{i18n:CucumberStarter_name}}",
+					"Description": "{{i18n:CucumberStarter_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 65,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					//optional
+					"ContextTags": [ "color_green" ]
+				}
+			}
+		},
+		{
+			"LogName": "Lettuce Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDLettuce}}' = '6480.morecrops_Lettuce'": true},
+				"Entries": {
+				"6480.morecrops_Lettuce": {
+					"Name": "6480.morecrops_Lettuce",
+					"Displayname": "{{i18n:Lettuce_name}}",
+					"Description": "{{i18n:Lettuce_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 28,
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 100,
+					"Edibility": 5,
+					//optional
+					"ContextTags": [ "color_green" ]
+				},
+				"6480.morecrops_LettuceSeeds": {
+					"Name": "6480.morecrops_LettuceSeeds",
+					"Displayname": "{{i18n:LettuceSeeds_name}}",
+					"Description": "{{i18n:LettuceSeeds_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 68,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					//optional
+					"ContextTags": [ "color_green" ]
+				}
+			}
+		},
+		{
+			"LogName": "Onion Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDOnion}}' = '6480.morecrops_Onion'": true},
+				"Entries": {
+				"6480.morecrops_Onion": {
+					"Name": "6480.morecrops_Onion",
+					"Displayname": "{{i18n:Onion_name}}",
+					"Description": "{{i18n:Onion_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 30,
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 100,
+					"Edibility": 5,
+					//optional
+					"ContextTags": [ "color_brown" ]
+				},
+				"6480.morecrops_OnionSeeds": {
+					"Name": "6480.morecrops_OnionSeeds",
+					"Displayname": "{{i18n:OnionSeeds_name}}",
+					"Description": "{{i18n:OnionSeeds_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 70,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					//optional
+					"ContextTags": [ "color_brown" ]
+				}
+			}
+		},
+		{
+			"LogName": "Peanut Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDPeanut}}' = '6480.morecrops_Peanut'": true},
+				"Entries": {
+				"6480.morecrops_Peanut": {
+					"Name": "6480.morecrops_Peanut",
+					"Displayname": "{{i18n:Peanut_name}}",
+					"Description": "{{i18n:Peanut_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 31,
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 100,
+					"Edibility": 5,
+					//optional
+					"ContextTags": [ "color_sand" ]
+				},
+				"6480.morecrops_PeanutSeeds": {
+					"Name": "6480.morecrops_PeanutSeeds",
+					"Displayname": "{{i18n:PeanutSeeds_name}}",
+					"Description": "{{i18n:PeanutSeeds_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 71,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					//optional
+					"ContextTags": [ "color_sand" ]
+				}
+			}
+		},
+		{
+			"LogName": "Soybean Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDSoybean}}' = '6480.morecrops_Soybeans'": true},
+				"Entries": {
+				"6480.morecrops_Soybeans": {
+					"Name": "6480.morecrops_Soybeans",
+					"Displayname": "{{i18n:Soybeans_name}}",
+					"Description": "{{i18n:Soybeans_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 32,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					//optional
+					"ContextTags": [ "color_sand" ]
+				}
+			}
+		},
+		{
+			"LogName": "Spinach Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDSpinach}}' = '6480.morecrops_Spinach'": true},
+				"Entries": {
+				"6480.morecrops_Spinach": {
+					"Name": "6480.morecrops_Spinach",
+					"Displayname": "{{i18n:Spinach_name}}",
+					"Description": "{{i18n:Spinach_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 33,
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 100,
+					"Edibility": 5,
+					//optional
+					"ContextTags": [ "color_dark_green" ]
+				},
+				"6480.morecrops_SpinachSeeds": {
+					"Name": "6480.morecrops_SpinachSeeds",
+					"Displayname": "{{i18n:SpinachSeeds_name}}",
+					"Description": "{{i18n:SpinachSeeds_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 73,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					//optional
+					"ContextTags": [ "color_dark_green" ]
+				}
+			}
+		},
+		{
+			"LogName": "Sugarcane Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDSugarcane}}' = '6480.morecrops_Sugarcane'": true},
+				"Entries": {
+				"6480.morecrops_Sugarcane": {
+					"Name": "6480.morecrops_Sugarcane",
+					"Displayname": "{{i18n:Sugarcane_name}}",
+					"Description": "{{i18n:Sugarcane_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 35,
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 100,
+					"Edibility": 5,
+					//optional
+					"ContextTags": [ "color_green", "color_brown" ]
+				},
+				"6480.morecrops_SugarcaneShoot": {
+					"Name": "6480.morecrops_SugarcaneShoot",
+					"Displayname": "{{i18n:SugarcaneShoot_name}}",
+					"Description": "{{i18n:SugarcaneShoot_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 75,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					//optional
+					"ContextTags": [ "color_green", "color_brown" ]
+				}
+			}
+		},
+		{
+			"LogName": "Bell Pepper Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDBellPepper}}' = '6480.morecrops_BellPepper'": true},
+				"Entries": {
+				"6480.morecrops_BellPepper": {
+					"Name": "6480.morecrops_BellPepper",
+					"Displayname": "{{i18n:BellPepper_name}}",
+					"Description": "{{i18n:BellPepper_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 36,
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 100,
+					"Edibility": 5,
+					//optional
+					"ContextTags": [ "color_orange" ]
+				},
+				"6480.morecrops_BellPepperSeeds": {
+					"Name": "6480.morecrops_BellPepperSeeds",
+					"Displayname": "{{i18n:BellPepperSeeds_name}}",
+					"Description": "{{i18n:BellPepperSeeds_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 76,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					//optional
+					"ContextTags": [ "color_orange" ]
+				}
+			}
+		},
+		{
+			"LogName": "Zucchini Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDZucchini}}' = '6480.morecrops_Zucchini'": true},
+				"Entries": {
+				"6480.morecrops_Zucchini": {
+					"Name": "6480.morecrops_Zucchini",
+					"Displayname": "{{i18n:Zucchini_name}}",
+					"Description": "{{i18n:Zucchini_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 37,
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 100,
+					"Edibility": 5,
+					//optional
+					"ContextTags": [ "color_green" ]
+				},
+				"6480.morecrops_ZucchiniSeeds": {
+					"Name": "6480.morecrops_ZucchiniSeeds",
+					"Displayname": "{{i18n:ZucchiniSeeds_name}}",
+					"Description": "{{i18n:ZucchiniSeeds_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 77,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					//optional
+					"ContextTags": [ "color_green" ]
+				}
+			}
+		},
+		{
+			"LogName": "Peppercorn Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDPeppercorn}}' = '6480.morecrops_Peppercorn'": true},
+				"Entries": {
+				"6480.morecrops_Peppercorn": {
+					"Name": "6480.morecrops_Peppercorn",
+					"Displayname": "{{i18n:Peppercorn_name}}",
+					"Description": "{{i18n:Peppercorn_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 38,
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 100,
+					"Edibility": 5,
+					//optional
+					"ContextTags": [ "color_dark_green" ]
+				},
+				"6480.morecrops_PeppercornStarter": {
+					"Name": "6480.morecrops_PeppercornStarter",
+					"Displayname": "{{i18n:PeppercornStarter_name}}",
+					"Description": "{{i18n:PeppercornStarter_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 78,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					//optional
+					"ContextTags": [ "color_dark_green" ]
+				}
+			}
+		},
+	]
+}
