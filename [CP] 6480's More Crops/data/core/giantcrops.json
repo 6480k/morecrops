@@ -7,7 +7,7 @@
 		"Entries": {
 			"6480.morecrops_Broccoli": {
 				"FromItemId": "6480.morecrops_Broccoli",
-				"Chance": 1.0,
+				"Chance": 0.01,
 				"HarvestItems": [
 					{
 						"ItemId": "6480.morecrops_Broccoli",
@@ -27,7 +27,7 @@
 			},
 			"6480.morecrops_Watermelon": {
 				"FromItemId": "6480.morecrops_Watermelon",
-				"Chance": 0.5,
+				"Chance": 0.01,
 				"HarvestItems": [
 					{
 						"ItemId": "6480.morecrops_Watermelon",
@@ -47,7 +47,7 @@
 			},
 			"6480.morecrops_Watermelon": {
 				"FromItemId": "6480.morecrops_Watermelon",
-				"Chance": 1.0,
+				"Chance": 0.02,
 				"HarvestItems": [
 					{
 						"ItemId": "6480.morecrops_Watermelon",
