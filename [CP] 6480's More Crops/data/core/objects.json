@@ -483,5 +483,38 @@
 				}
 			}
 		},
+		{
+			"LogName": "Watermelon Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Query: '{{IDWatermelon}}' = '6480.morecrops_Watermelon'": true},
+				"Entries": {
+				"6480.morecrops_Watermelon": {
+					"Name": "6480.morecrops_Watermelon",
+					"Displayname": "{{i18n:Watermelon_name}}",
+					"Description": "{{i18n:Watermelon_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 39,
+					"Type": "Fruit",
+					"Category": -75,
+					"Price": 100,
+					"Edibility": 5,
+					//optional
+					"ContextTags": [ "color_dark_green" ]
+				},
+				"6480.morecrops_WatermelonSeeds": {
+					"Name": "6480.morecrops_WatermelonSeeds",
+					"Displayname": "{{i18n:WatermelonSeeds_name}}",
+					"Description": "{{i18n:WatermelonSeeds_description}}",
+					"Texture": "Mods/6480.morecrops/objects",
+					"SpriteIndex": 79,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					//optional
+					"ContextTags": [ "color_dark_green" ]
+				}
+			}
+		},
 	]
 }
