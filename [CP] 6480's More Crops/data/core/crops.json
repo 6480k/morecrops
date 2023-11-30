@@ -287,7 +287,7 @@
 			"Entries": {
 			"6480.morecrops_WatermelonSeeds": {
 				"Seasons": [ "summer" ],
-				"DaysInPhase": [ 1 ],
+				"DaysInPhase": [ 2, 2, 2, 2, 2, 2 ],
 				"HarvestItemId": "6480.morecrops_Watermelon",
 				"Texture": "Mods/6480.morecrops/crops",
 				"SpriteIndex": 15,
@@ -301,18 +301,17 @@
 			"When": {"Query: '{{IDGroundcherry}}' = '6480.morecrops_Groundcherry'": true},
 			"Entries": {
 			"6480.morecrops_GroundcherrySeeds": {
-				"Seasons": [ "summer" ],
-				"DaysInPhase": [ 1 ],
+				"Seasons": [ "fall" ],
+				"DaysInPhase": [ 1, 2, 2, 2, 1 ],
 				"HarvestItemId": "6480.morecrops_Groundcherry",
 				"Texture": "Mods/6480.morecrops/crops",
 				"SpriteIndex": 17,
 				//optional
-				"RegrowDays": 1,
-				"IsRaised": true,
-				"HarvestMinStack": 2,
-				"HarvestMaxStack": 3, //defaults to min
+				"RegrowDays": 4,
+				"HarvestMinStack": 1,
+				"HarvestMaxStack": 2, //defaults to min
 				"HarvestMaxIncreasePerFarmingLevel": 0.0, //increases max possible
-				"ExtraHarvestChance": 0.02,
+				"ExtraHarvestChance": 0.03,
 				}
 			}
 		}
