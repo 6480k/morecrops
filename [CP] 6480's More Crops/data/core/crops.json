@@ -7,7 +7,7 @@
 			"When": {"Query: '{{IDAsparagus}}' = '6480.morecrops_Asparagus'": true},
 			"Entries": {
 			"6480.morecrops_AsparagusSeeds": {
-				"Seasons": [ "fall" ],
+				"Seasons": [ "spring" ],
 				"DaysInPhase": [ 1, 2, 3, 3 ],
 				"HarvestItemId": "6480.morecrops_Asparagus",
 				"Texture": "Mods/6480.morecrops/crops",
