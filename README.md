@@ -10,3 +10,8 @@ More Crops is set up to be fully customizable in your use of different "packs", 
 Roadmap:
 - Core pack (A selection of essential crops and fruit trees to mesh with the vanilla selection.)
 - Artisan goods (Expands upon artisan goods to provide more mid- and late-game options for production lines.)
+
+Potential packs (no guarantees):
+- Thai cooking (Some Asian crops accompanied by recipes from Thai cuisine.)
+- Baker's Valley (An artisan goods pack focused on baking and fancy coffees)
+- Florist (Adds an assortment of flower crops to the game.)
