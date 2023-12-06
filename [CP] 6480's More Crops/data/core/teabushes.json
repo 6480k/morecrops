@@ -1,0 +1,22 @@
+{
+	"Changes": [
+		{
+			"LogName": "Add to TeaTime Framework",
+			"Action": "EditData",
+			"Target": "furyx639.TeaTime/Data",
+			"Entries": {
+				"(O)433": {
+				// Minimum days from planting before leaves are produced
+					"AgeToProduce": 6,
+	  
+				// Will only bloom after this day of month
+					"DayToBeginProducing": 10,
+	  
+				// The item to drop when in bloom
+					"ItemProduced": "(O)433",
+					"Texture": "Mods/6480.morecrops/teabushes"
+				}
+			}
+		},
+	]
+}
