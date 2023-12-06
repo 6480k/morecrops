@@ -185,10 +185,10 @@
 					//optional
 					"ContextTags": [ "color_green" ]
 				},
-				"6480.morecrops_CucumberStarter": {
-					"Name": "6480.morecrops_CucumberStarter",
-					"Displayname": "{{i18n:CucumberStarter_name}}",
-					"Description": "{{i18n:CucumberStarter_description}}",
+				"6480.morecrops_CucumberSeeds": {
+					"Name": "6480.morecrops_CucumberSeeds",
+					"Displayname": "{{i18n:CucumberSeeds_name}}",
+					"Description": "{{i18n:CucumberSeeds_description}}",
 					"Texture": "Mods/6480.morecrops/objects",
 					"SpriteIndex": 65,
 					"Type": "Seeds",
@@ -469,10 +469,10 @@
 					//optional
 					"ContextTags": [ "color_dark_green" ]
 				},
-				"6480.morecrops_PeppercornStarter": {
-					"Name": "6480.morecrops_PeppercornStarter",
-					"Displayname": "{{i18n:PeppercornStarter_name}}",
-					"Description": "{{i18n:PeppercornStarter_description}}",
+				"6480.morecrops_PeppercornSeeds": {
+					"Name": "6480.morecrops_PeppercornSeeds",
+					"Displayname": "{{i18n:PeppercornSeeds_name}}",
+					"Description": "{{i18n:PeppercornSeeds_description}}",
 					"Texture": "Mods/6480.morecrops/objects",
 					"SpriteIndex": 78,
 					"Type": "Seeds",
