@@ -39,7 +39,7 @@
 		{
 			"Name": "IDBasil",
 			"Value": "wildflour.wildfood_basil",
-			"When": {"HasMod": "wildflour.wildfood"}
+			"When": {"HasMod": "wildflour.wildfood", "TurnOffDuplicates": "true"}
 		},
 		{
 			"Name": "IDBroccoli",
@@ -52,7 +52,7 @@
 		{
 			"Name": "IDCarrot",
 			"Value": "wildflour.wildfood_carrot",
-			"When": {"HasMod": "wildflour.wildfood"}
+			"When": {"HasMod": "wildflour.wildfood", "TurnOffDuplicates": "true"}
 		},
 		{
 			"Name": "IDAloe",
@@ -73,7 +73,7 @@
 		{
 			"Name": "IDOnion",
 			"Value": "wildflour.wildfood_redonion",
-			"When": {"HasMod": "wildflour.wildfood"}
+			"When": {"HasMod": "wildflour.wildfood", "TurnOffDuplicates": "true"}
 		},
 		{
 			"Name": "IDPeanut",
@@ -116,7 +116,7 @@
 		{
 		"LogName": "Textures",
 		"Action": "Load",
-		"Target": "Mods/6480.morecrops/objects, Mods/6480.morecrops/crops, Mods/6480.morecrops/fruittrees, Mods/6480.morecrops/giantcrops",
+		"Target": "Mods/6480.morecrops/objects, Mods/6480.morecrops/crops, Mods/6480.morecrops/fruittrees, Mods/6480.morecrops/giantcrops, Mods/6480.morecrops/teabushes",
 		"FromFile": "assets/{{TargetWithoutPath}}.png"
 		},
 		{
@@ -148,6 +148,12 @@
 		"Action": "Include",
 		"FromFile": "Data/core/trees.json",
 		"When": {"EnableCorePack": true}
+		},
+		{
+		"LogName": "Core Tea Bushes",
+		"Action": "Include",
+		"FromFile": "Data/core/teabushes.json",
+		"When": {"EnableCorePack": true, "HasMod": "furyx639.TeaTime"}
 		},
 		{
 		"LogName": "Core Machines",
