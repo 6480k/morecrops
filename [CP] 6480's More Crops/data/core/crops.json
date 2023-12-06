@@ -90,7 +90,7 @@
 			"Target": "Data/Crops",
 			"When": {"Query: '{{IDCucumber}}' = '6480.morecrops_Cucumber'": true},
 			"Entries": {
-			"6480.morecrops_CucumberStarter": {
+			"6480.morecrops_CucumberSeeds": {
 				"Seasons": [ "fall" ],
 				"DaysInPhase": [ 1, 1, 1, 2, 1 ],
 				"HarvestItemId": "6480.morecrops_Cucumber",
@@ -263,7 +263,7 @@
 			"Target": "Data/Crops",
 			"When": {"Query: '{{IDPeppercorn}}' = '6480.morecrops_Peppercorn'": true},
 			"Entries": {
-			"6480.morecrops_PeppercornStarter": {
+			"6480.morecrops_PeppercornSeeds": {
 				"Seasons": [ "fall" ],
 				"DaysInPhase": [ 1, 2, 4, 4, 3 ],
 				"HarvestItemId": "6480.morecrops_Peppercorn",
