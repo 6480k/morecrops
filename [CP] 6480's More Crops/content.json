@@ -120,12 +120,6 @@
 		"FromFile": "assets/{{TargetWithoutPath}}.png"
 		},
 		{
-		"LogName": "Vanilla Forage Crops",
-		"Action": "Include",
-		"FromFile": "data/vanillaforage.json",
-		"When": {"VanillaForageCrops": true}
-		},
-		{
 		"LogName": "Core Objects",
 		"Action": "Include",
 		"FromFile": "data/core/objects.json",
@@ -153,7 +147,7 @@
 		"LogName": "Core Tea Bushes",
 		"Action": "Include",
 		"FromFile": "Data/core/teabushes.json",
-		"When": {"EnableCorePack": true, "HasMod": "furyx639.TeaTime"}
+		"When": {"EnableCorePack": true, "HasMod": "furyx639.CustomBush"}
 		},
 		{
 		"LogName": "Core Machines",
