@@ -257,7 +257,7 @@
 				}
 			}
 		},
-		{
+		/*{
 			"LogName": "Peppercorn Crop",
 			"Action": "EditData",
 			"Target": "Data/Crops",
@@ -278,7 +278,7 @@
 				"ExtraHarvestChance": 0.06,
 				}
 			}
-		},
+		},*/
 		{
 			"LogName": "Watermelon Crop",
 			"Action": "EditData",
