@@ -1,20 +1,44 @@
 {
 	"Changes": [
 		{
-			"LogName": "Add to TeaTime Framework",
+			"LogName": "Add to Custom Bush Framework",
 			"Action": "EditData",
-			"Target": "furyx639.TeaTime/Data",
+			"Target": "furyx639.CustomBush/Data",
 			"Entries": {
-				"(O)433": {
+				"(O)6480.morecrops_PeppercornSeeds": {
 				// Minimum days from planting before leaves are produced
-					"AgeToProduce": 6,
+					"AgeToProduce": 20,
 	  
 				// Will only bloom after this day of month
-					"DayToBeginProducing": 10,
+					"DayToBeginProducing": 22,
+					
+				// Will only produce items in these seasons
+					"Seasons": ["Spring", "Summer", "Fall"],
 	  
 				// The item to drop when in bloom
-					"ItemProduced": "(O)433",
-					"Texture": "Mods/6480.morecrops/teabushes"
+					"ItemsProduced": [
+						{
+							"Id": "Default",
+							"Season": null,
+							"Chance": 1.0,
+							"Condition": "DAY_OF_MONTH odd",
+							"ItemId": "(O)6480.morecrops_Peppercorn",
+							"RandomItemId": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack"
+						}
+					],
+					"Texture": "Mods/6480.morecrops/teabushes",
+					"TextureSpriteRow": 0,
 				}
 			}
 		},
