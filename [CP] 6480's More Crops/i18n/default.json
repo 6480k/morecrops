@@ -1,10 +1,4 @@
 {
-	"GingerSeeds_name": "Ginger Seeds",
-	"GingerSeeds_description": "Plant these in the summer. Takes 8 days to mature.",
-	
-	"SpringOnionSeeds_name": "Spring Onion Seeds",
-	"SpringOnionSeeds_description": "Plant these in the spring. Takes only 3 days to mature.",
-	
 	//core crops
 	"Aloe_name": "Aloe",
 	"Aloe_description": "The fleshy leaves of this plant contain a soothing salve.",
