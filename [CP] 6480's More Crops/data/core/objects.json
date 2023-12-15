@@ -48,7 +48,7 @@
 					"SpriteIndex": 21,
 					"Type": "Vegetable",
 					"Category": -75,
-					"Price": 100,
+					"Price": 50,
 					"Edibility": 5,
 					//optional
 					"ContextTags": [ "color_dark_green", "6480.morecrops_herb" ]
@@ -61,7 +61,7 @@
 					"SpriteIndex": 61,
 					"Type": "Seeds",
 					"Category": -74,
-					"Price": 100,
+					"Price": 15,
 					//optional
 					"ContextTags": [ "color_dark_green" ]
 				}
@@ -81,7 +81,7 @@
 					"SpriteIndex": 22,
 					"Type": "Vegetable",
 					"Category": -75,
-					"Price": 100,
+					"Price": 230,
 					"Edibility": 5,
 					//optional
 					"ContextTags": [ "color_dark_green" ]
@@ -94,7 +94,7 @@
 					"SpriteIndex": 62,
 					"Type": "Seeds",
 					"Category": -74,
-					"Price": 100,
+					"Price": 40,
 					//optional
 					"ContextTags": [ "color_dark_green" ]
 				}
@@ -114,7 +114,7 @@
 					"SpriteIndex": 23,
 					"Type": "Vegetable",
 					"Category": -75,
-					"Price": 100,
+					"Price": 70,
 					"Edibility": 5,
 					//optional
 					"ContextTags": [ "color_orange" ]
@@ -127,7 +127,7 @@
 					"SpriteIndex": 63,
 					"Type": "Seeds",
 					"Category": -74,
-					"Price": 100,
+					"Price": 15,
 					//optional
 					"ContextTags": [ "color_orange" ]
 				}
@@ -147,7 +147,7 @@
 					"SpriteIndex": 24,
 					"Type": "Vegetable",
 					"Category": -75,
-					"Price": 100,
+					"Price": 260,
 					"Edibility": 5,
 					//optional
 					"ContextTags": [ "color_green" ]
@@ -160,7 +160,7 @@
 					"SpriteIndex": 64,
 					"Type": "Seeds",
 					"Category": -74,
-					"Price": 100,
+					"Price": 50,
 					//optional
 					"ContextTags": [ "color_green" ]
 				}
@@ -180,7 +180,7 @@
 					"SpriteIndex": 25,
 					"Type": "Vegetable",
 					"Category": -75,
-					"Price": 100,
+					"Price": 40,
 					"Edibility": 5,
 					//optional
 					"ContextTags": [ "color_green" ]
@@ -193,7 +193,7 @@
 					"SpriteIndex": 65,
 					"Type": "Seeds",
 					"Category": -74,
-					"Price": 100,
+					"Price": 50,
 					//optional
 					"ContextTags": [ "color_green" ]
 				}
@@ -213,7 +213,7 @@
 					"SpriteIndex": 28,
 					"Type": "Vegetable",
 					"Category": -75,
-					"Price": 100,
+					"Price": 140,
 					"Edibility": 5,
 					//optional
 					"ContextTags": [ "color_green" ]
@@ -226,7 +226,7 @@
 					"SpriteIndex": 68,
 					"Type": "Seeds",
 					"Category": -74,
-					"Price": 100,
+					"Price": 35,
 					//optional
 					"ContextTags": [ "color_green" ]
 				}
@@ -246,7 +246,7 @@
 					"SpriteIndex": 30,
 					"Type": "Vegetable",
 					"Category": -75,
-					"Price": 100,
+					"Price": 70,
 					"Edibility": 5,
 					//optional
 					"ContextTags": [ "color_brown" ]
@@ -259,7 +259,7 @@
 					"SpriteIndex": 70,
 					"Type": "Seeds",
 					"Category": -74,
-					"Price": 100,
+					"Price": 20,
 					//optional
 					"ContextTags": [ "color_brown" ]
 				}
@@ -292,7 +292,7 @@
 					"SpriteIndex": 71,
 					"Type": "Seeds",
 					"Category": -74,
-					"Price": 100,
+					"Price": 40,
 					//optional
 					"ContextTags": [ "color_sand" ]
 				}
@@ -312,7 +312,7 @@
 					"SpriteIndex": 32,
 					"Type": "Seeds",
 					"Category": -74,
-					"Price": 100,
+					"Price": 60,
 					//optional
 					"ContextTags": [ "color_sand" ]
 				}
@@ -332,7 +332,7 @@
 					"SpriteIndex": 33,
 					"Type": "Vegetable",
 					"Category": -75,
-					"Price": 100,
+					"Price": 150,
 					"Edibility": 5,
 					//optional
 					"ContextTags": [ "color_dark_green" ]
@@ -345,7 +345,7 @@
 					"SpriteIndex": 73,
 					"Type": "Seeds",
 					"Category": -74,
-					"Price": 100,
+					"Price": 45,
 					//optional
 					"ContextTags": [ "color_dark_green" ]
 				}
@@ -365,7 +365,7 @@
 					"SpriteIndex": 35,
 					"Type": "Vegetable",
 					"Category": -75,
-					"Price": 100,
+					"Price": 30,
 					"Edibility": 5,
 					//optional
 					"ContextTags": [ "color_green", "color_brown" ]
@@ -378,7 +378,7 @@
 					"SpriteIndex": 75,
 					"Type": "Seeds",
 					"Category": -74,
-					"Price": 100,
+					"Price": 15,
 					//optional
 					"ContextTags": [ "color_green", "color_brown" ]
 				}
@@ -398,7 +398,7 @@
 					"SpriteIndex": 36,
 					"Type": "Vegetable",
 					"Category": -75,
-					"Price": 100,
+					"Price": 70,
 					"Edibility": 5,
 					//optional
 					"ContextTags": [ "color_orange" ]
@@ -411,7 +411,7 @@
 					"SpriteIndex": 76,
 					"Type": "Seeds",
 					"Category": -74,
-					"Price": 100,
+					"Price": 30,
 					//optional
 					"ContextTags": [ "color_orange" ]
 				}
@@ -431,7 +431,7 @@
 					"SpriteIndex": 37,
 					"Type": "Vegetable",
 					"Category": -75,
-					"Price": 100,
+					"Price": 60,
 					"Edibility": 5,
 					//optional
 					"ContextTags": [ "color_green" ]
@@ -444,7 +444,7 @@
 					"SpriteIndex": 77,
 					"Type": "Seeds",
 					"Category": -74,
-					"Price": 100,
+					"Price": 25,
 					//optional
 					"ContextTags": [ "color_green" ]
 				}
@@ -464,7 +464,7 @@
 					"SpriteIndex": 38,
 					"Type": "Vegetable",
 					"Category": -75,
-					"Price": 100,
+					"Price": 20,
 					"Edibility": 5,
 					//optional
 					"ContextTags": [ "color_dark_green" ]
@@ -475,7 +475,7 @@
 					"Description": "{{i18n:PeppercornSeeds_description}}",
 					"Texture": "Mods/6480.morecrops/objects",
 					"SpriteIndex": 78,
-					"Type": "Seeds",
+					"Type": "Basic",
 					"Category": -74,
 					"Price": 100,
 					//optional
@@ -497,7 +497,7 @@
 					"SpriteIndex": 39,
 					"Type": "Fruit",
 					"Category": -75,
-					"Price": 100,
+					"Price": 480,
 					"Edibility": 5,
 					//optional
 					"ContextTags": [ "color_dark_green" ]
@@ -510,7 +510,7 @@
 					"SpriteIndex": 79,
 					"Type": "Seeds",
 					"Category": -74,
-					"Price": 100,
+					"Price": 125,
 					//optional
 					"ContextTags": [ "color_dark_green" ]
 				}
